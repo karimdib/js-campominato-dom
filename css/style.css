@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+section{
+    padding:  50px 0;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.griglia{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.griglia__items{
+    width: 10%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1;
+}
+
+.skyblue{
+    background-color: skyblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.gameover{
+    pointer-events: none;
+}
