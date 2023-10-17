@@ -6,6 +6,7 @@ buttonDOMElement.addEventListener('click', function() {
     grigliaDOMElement.innerHTML = ''
     
     grigliaDOMElement.classList.remove('gameover')
+    pointGame = 0
 
     const bombsArray = getArrayOfRandomIntBetween(1, 100, 16)
     console.log( bombsArray)
